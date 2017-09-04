@@ -1,0 +1,34 @@
+Atividades do time
+1. Leia o arquivo leia me
+2. Ressolva os exercícios do nível iniciante
+3. Inscreva-se no https://www.urionlinejudge.com.br 
+4. Escolha mais 5 problemas da categoria iniciante (beginner)
+5. Solucione os problemas escolhidos
+6. Solucione os problemas do níve intermediário
+7. Nível avançado:
+a. Escolha mais 2 problemas da categoria String 
+b. Solucione os problemas escolhidos
+c. Escolha mais 2 problemas da categoria Mathematics 
+d. Solucione os problemas escolhidos
+
+
+Atividades do líder
+1. Criar e executar os testes unitários
+2. Os exercícios devem ser gravados no github
+   - Verifique como usar via tutorial na internet caso não conheça
+   - Pode fazer também o curso do codeacademy
+   - O projeto deve conter uma licença open-source MIT
+   - Explique para o time como proceder
+5. Realizar integração contínua
+   - Colocar o projeto em uma ferramenta de integração contínua on-line
+     * https://circleci.com
+     * https://travis-ci.com
+     * ou outra ferramenta on-line
+
+
+Regra:
+- Nenhuma dupla pode repetir um exercício de outra (ambas perdem a questão)
+- Não pode escolher nenhuma questão já escolhida pelo professor
+
+Bônus
+- Criar o teste unitário para todos os programas do nível iniciante.

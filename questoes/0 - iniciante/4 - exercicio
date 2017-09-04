@@ -1,0 +1,73 @@
+Solicite duas datas e informe a diferença em dias entra elas.
+
+Entrada
+
+O valor de entrada deve ser duas datas digitas cada uma em uma String, no formato:
+dd/MM/yyyy
+
+A primeira data digitada representa a data inicial e a segunda data representa a data final.
+
+Saída
+
+O programa deve mostrar o valor da diferença em dias.
+
+Exemplos:
+
+Considere que cada uma das linhas abaixo é o resultado de uma execução do programa, ou seja,
+não é necessário usar loops (for, while, ...) no programa principal (main)
+
++------------+-------------+-----------------------------------------+
+|Execução    | Entrada     |   Saida                                 |
++------------+-------------+-----------------------------------------+
+| 1          |  5/7/1972   |   12020 dias                            |
+|            |  1/6/2005   |                                         |
++------------+-------------+-----------------------------------------+
+| 2          |  10/10/2011 |   2594 dias                             |
+|            |  15/11/2018 |                                         |
++------------+-------------+-----------------------------------------+
+| 3          |  14/11/2018 |   2 dias                                |
+|            |  15/11/2018 |                                         |
++------------+-------------+-----------------------------------------+
+| 4          |  14/11/2017 |   2 dias                                |
+|            |  15/11/2018 |                                         |
++------------+-------------+-----------------------------------------+
+| 4          |  15/11/2017 |   366 dias                              |
+|            |  15/11/2018 |                                         |
++------------+-------------+-----------------------------------------+
+
+Dicas:
+
+Criar um classe para armazenar o Intervalo e guardar dentro dela dois atributos (um para cada data)
+denomindados dataInicial e dataFinal. Os atributos devem ser privados e acessados via métodos get/set.
+a diferença deve ser fornecida em dias 
+
+Considerar no calculo que o dia final deve ser incluido na resposta.
+
+Verifique na internet sobre a classe Date do java armazenada no pacote java.util
+
+
+
+Para leitura de data considere o seguinte exemplo como dica:
+
+    String dateFormat = "dd/MM/yyyy";
+    Scanner scanner = new Scanner(System.in);
+    String  txtDate = scanner.nextLine();
+    Date data1 = new SimpleDateFormat( dateFormat ).parse(txtDate) );
+    
+    
+    
+    
+Para calculo da diferença em dias 
+
+int diferencaEmDias = (int) ( (dataFinal.getTime() - dataInicial.getTime()) 
+                 / (1000 * 60 * 60 * 24) ) 
+                 
+ 1000 = Mille seconds
+ 60   = Minutes
+ 60   = Seconds
+ 24   = horas                
+
+
+
+
+

@@ -1,0 +1,43 @@
+Um empresário precisa de uma máquina para preencher cheques e você foi contradado
+para desenvolver o software. Sua missão é solicitar um valor numérico e informe
+ o valor por extenso.
+
+Entrada
+
+O valor de entrada deve ser um número float.
+
+Saída
+
+O programa deve mostrar o valor escrito por extenso. 
+
+Exemplos:
+
+Considere que cada uma das linhas abaixo é o resultado de uma execução do programa, ou seja,
+não é necessário usar loops (for, while, ...) no programa principal (main)
+
++------------+-------------+-----------------------------------------+
+|Execução    | Entrada     |   Saida                                 |
++------------+-------------+-----------------------------------------+
+| 1          |  12         |  doze reais                             |
+|            |             |                                         |
++------------+-------------+-----------------------------------------+
+| 2          |  3          |  três reais                             |
+|            |             |                                         |
++------------+-------------+-----------------------------------------+
+| 3          |  89         |  oitenta e nove reais                   |
+|            |             |                                         |
++------------+-------------+-----------------------------------------+
+| 4          |  533        |  quinhentos e trinta e três reais       |
+|            |             |                                         |
++------------+-------------+-----------------------------------------+
+| 5          |  533.25     |  quinhentos e trinta e três reais e     |
+|            |             |  vinte e cinco centavos                 |
++------------+-------------+-----------------------------------------+
+| 5          |  999.13     |  quinhentos e trinta e três reais e     |
+|            |             |  vinte e cinco centavos                 |
++------------+-------------+-----------------------------------------+
+
+Dicas:
+
+Criar um classe que retorne o valor por extenso e armazene o valor de entrada
+(usando get/set).

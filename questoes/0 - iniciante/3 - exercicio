@@ -1,0 +1,40 @@
+A fórmula para calcular a área de uma  circunferência é definida por:
+A = PI * (R * R). 
+
+Considere para este problema o valor de PI definido como constante na Classe Math do Java (pesquise on-line) 
+como usar esta classe.
+
+Considere que (R * R) pode ser conseguido através de uma exponenciação, verifique on-line como usar
+o método pow da classe Math.
+
+Entrada
+
+O valor de entrada deve ser um número decimal com precisão double, que será armazenado na variável
+R (no programa chamar esta variável de raio).
+
+Saída
+
+O programa deve apresentar uma mensagem de saída indicando "Área = valor" onde valor é o resultado
+do calculo.
+
+Exemplos:
+
+Considere que cada uma das linhas abaixo é o resultado de uma execução do programa, ou seja,
+não é necessário usar loops (for, while, ...)
+
++------------+------------+----------------------+
+|Execução    | Entrada    |   Saida              |
++------------+------------+----------------------+
+| 1          |   2.00     |   Área = 12.5664     |
++------------+------------+----------------------+
+| 2          | 100.64     |   Área = 31819.3103  |
++------------+------------+----------------------+
+| 3          | 150.00     |   Área = 70685.7750  |
++------------+------------+----------------------+
+
+
+Dicas:
+
+Crie uma classe chamada Circunferencia contendo um atributo para o raio com métodos get/set.
+Dentro da classe crie um método para pegar o valor da área (getArea) que calcula o valor da área conforme a fórmula.
+Para testar crie uma classe contendo o método main que possui a entrada de dados e a saída.

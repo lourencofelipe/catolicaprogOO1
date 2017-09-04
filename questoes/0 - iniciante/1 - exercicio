@@ -1,0 +1,42 @@
+Adição é uma das operações básicas da álgebra. Na sua forma mais simples, adição combina
+dois números (termo 1, termo 2), em um único número denominado total
+
+
+Entrada
+
+O valor de entrada deve ser dois números inteiros com precisão int, que serão armazenado 
+em variáveis denominadas termo1 e termo2. As variáveis devem ser acessada apenas 
+via get/set.
+
+Saída
+
+O programa deve apresentar uma mensagem de saída indicando "Total = valor", onde valor é o
+ resultado do cálculo.
+
+Exemplos:
+
+Considere que cada uma das linhas abaixo é o resultado de uma execução do programa, ou seja,
+não é necessário usar loops (for, while, ...)
+
++------------+------------+----------------------+
+|Execução    | Entrada    |   Saida              |
++------------+------------+----------------------+
+| 1          |  10        |                      |
+|            |  9         |   Total  = 19        |
++------------+------------+----------------------+
+| 2          |  -10       |                      |
+|            |  4         |   Total  = -6        |
++------------+------------+----------------------+
+| 1          |  15        |                      |
+|            |  -7        |   Total  = 19        |
++------------+------------+----------------------+
+
+Dicas:
+
+Crie uma classe chamada Somador contendo um atributo para cada termo (termo1, termo2) 
+com métodos get/set.
+
+Dentro da classe crie um método para pegar o valor do total (getTotal) que calcula o valor
+ da área conforme a fórmula.
+ 
+Para testar crie uma classe contendo o método main que possui a entrada de dados e a saída.

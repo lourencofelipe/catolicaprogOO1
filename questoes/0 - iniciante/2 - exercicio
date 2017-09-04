@@ -1,0 +1,40 @@
+Solicite para um vendedor o nome, salario fixo e o total de vendas mês,
+Considere que o vendedor recebe um bônus de 15% sobre o tatal de vendas mês.
+
+Entrada
+
+O programa deve solicitar o nome do vendedor, salario mensal bruto e o
+ total vendas mês.
+
+Saída
+
+A partir do total de vendas o programa deve calcular e mostrar o
+"Percentual das vendas = valor" onde valor corresponde a 15% sobre o total vendas mês.
+
+Exemplos:
+
+Considere que cada uma das linhas abaixo é o resultado de uma execução do programa, ou seja,
+não é necessário usar loops (for, while, ...). Trablhe com precisão double.
+
+
++------------+------------+-----------------------------------------+
+|Execução    | Entrada    |   Saida                                 |
++------------+------------+-----------------------------------------+
+| 1          |  JOAO      |                                         |
+|            |  500.00    |                                         |
+|            |  1230.30   |   Percentual das vendas =  184.54       |
++------------+------------+-----------------------------------------+
+| 1          |  JOSÉ      |                                         |
+|            |  700.00    |                                         |
+|            |  0.0       |   Percentual das vendas =  0            |
++------------+------------+-----------------------------------------+
+| 1          |  JOAQUIM   |                                         |
+|            |  1700.00   |                                         |
+|            |  1230.50   |   Percentual das vendas = 184.58        |
++------------+------------+-----------------------------------------+
+
+
+Dicas:
+
+Crie um classe chamada vendedor que tenha os médodos get/set para cada dado entrado e
+o get para cada saída. 

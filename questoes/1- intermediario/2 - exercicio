@@ -1,0 +1,32 @@
+Um palíndromo é uma palavra, frase ou qualquer outra sequência de caracteres  que podem ser lida tanto da direita para a esquerda como da esquerda para a direita.
+
+Entrada
+
+O valor de entrada deve ser uma frase que será armazenada em uma String.
+
+
+Saída
+
+O programa deve mostrar se a frase digitada é ou não um palíndromo.
+
+Exemplos:
+
+                                                                    
++------------+------------------------------------------------------+-----------------------------------------+
+|Execução    | Entrada                                              |   Saida                                 |
++------------+------------------------------------------------------+-----------------------------------------+
+| 1          |  Socorram-me, subi no ônibus em Marrocos             |  é um palíndromo                        |
+|            |                                                      |                                         |
++------------+------------------------------------------------------+-----------------------------------------+
+| 2          |  a rapida raposa marrom pulou sobre o cachorro.      |  não é um palíndromo                    |
+|            |                                                      |                                         |
++------------+------------------------------------------------------+-----------------------------------------+
+
+
+
+Dicas:
+
+Teste o seu programa usando letras maiúsculas e minúsculas quando for procurar por erros.
+
+Pesquise a classe StringBuffer do Java e suas vantagens e desvantagens em relação a classe String.
+

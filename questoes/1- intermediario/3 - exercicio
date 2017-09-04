@@ -1,0 +1,34 @@
+Solicite uma frase e imprima ela sem as vogais.
+
+Entrada
+
+O valor de entrada deve ser uma frase que será armazenada em uma String.
+
+
+Saída
+
+O programa deve mostrar a String de entrada sem vogais.
+
+Exemplos:
+
+Considere que cada uma das linhas abaixo é o resultado de uma execução do programa, ou seja,
+não é necessário usar loops (for, while, ...) no programa principal (main)
+                                                                    
++------------+------------------------------------------------------+-----------------------------------------+
+|Execução    | Entrada                                              |   Saida                                 |
++------------+------------------------------------------------------+-----------------------------------------+
+| 1          |  a vela apago                                        |  vlpg                                   |
+|            |                                                      |                                         |
++------------+------------------------------------------------------+-----------------------------------------+
+| 2          |  a rapida raposa marrom pulou sobre o cachorro.      |  rpdrpsmrrmplsbrc                       |
+|            |                                                      |                                         |
++------------+------------------------------------------------------+-----------------------------------------+
+
+
+
+Dicas:
+
+Teste o seu programa usando letras maiúsculas e minúsculas quando for procurar por erros.
+
+Pesquise a classe StringBuffer do Java e suas vantagens e desvantagens em relação a classe String.
+

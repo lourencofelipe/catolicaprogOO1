@@ -1,0 +1,47 @@
+Escreva um programa que solicite um número inteiro qualquer e escreva o número
+multiplicado pela sua posição no array.
+
+Entrada
+
+O valor de entrada deve ser um número inteiro.
+
+Saída
+
+O conteúdo do array contendo um elemento por linha.
+
+Exemplos:
+
+Considere que cada uma das linhas abaixo é o resultado de uma execução do programa, ou seja,
+não é necessário usar loops (for, while, ...) no programa principal (main)
+
++------------+-------------+-----------------------------------------+
+|Execução    | Entrada     |   Saida                                 |
++------------+-------------+-----------------------------------------+
+| 1          |  3          | [0] -> 0                                |
+|            |             | [1] -> 3                                |
+|            |             | [2] -> 6                                |
+|            |             | [3] -> 9                                |
+|            |             | [4] -> 12                               |
+|            |             | [5] -> 15                               |
+|            |             | [6] -> 18                               |
+|            |             | [7] -> 21                               |
+|            |             | ...                                     |
+|            |             | [999] -> ...                            |
++------------+-------------+-----------------------------------------+
+
+Dicas:
+
+Crie uma classe denominada ArrayPreenchido1 que possui um atributo denominado valores que é um array
+de 1000 posições. 
+
+
+    public void preencher( int valorInicial )
+
+Crie na classe um método getValores que retorna o array.
+
+    public int[] getValores()
+    
+ 
+                   
+
+

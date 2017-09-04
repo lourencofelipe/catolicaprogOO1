@@ -1,0 +1,53 @@
+Solicite um nome para o usuário e criptografe o nome usando a cifra de César.
+
+Entrada
+
+O valor de entrada deve ser um nome contido em uma String.
+
+
+Saída
+
+O programa deve mostrar o nome convertido para cifra de César.
+
+Exemplos:
+
+Considere que cada uma das linhas abaixo é o resultado de uma execução do programa, ou seja,
+não é necessário usar loops (for, while, ...) no programa principal (main)
+
++------------+-------------+-----------------------------------------+
+|Execução    | Entrada     |   Saida                                 |
++------------+-------------+-----------------------------------------+
+| 1          |  zenon      |  chqrq                                  |
+|            |             |                                         |
++------------+-------------+-----------------------------------------+
+| 2          |  manfred    |  pdqiuhg                                |
+|            |             |                                         |
++------------+-------------+-----------------------------------------+
+| 3          |  glauco     |  jodxfr                                 |
+|            |             |                                         |
++------------+-------------+-----------------------------------------+
+
+
+Dicas:
+
+Teste o seu programa usando letras maiúsculas e minúsculas quando for procurar por erros.
+
+
+Exemplo: 
+
+		final String MSG_ORIGINAL = "Zenon";
+		final int TAMANHO_MSG     = MSG_ORIGINAL.length();
+		
+		int posicao = 0;
+
+		
+		char deslocamento = 1; // pula um caracter apenas neste caso
+
+		char caracter         = (char) MSG_ORIGINAL.charAt(posicao);
+		char letraCifrada     = (char) (caracter + deslocamento);
+		
+		if (letraCifrada > 'z')
+			letraCifrada = (char) (letraCifrada - 26  );
+		
+		
+		System.out.println(letraCifrada);

@@ -1,0 +1,36 @@
+Solicite dois valores inteiros e imprima a soma de todos inteiros ímpares que
+existem entre eles.
+
+Entrada
+
+O valor de entrada deve ser dois números inteiros indicando o número inicial e o número final.
+
+
+Saída
+
+O programa deve mostrar a soma dos números inteiros existentes entre os dois números que são ímpares.
+
+Exemplos:
+
+Considere que cada uma das linhas abaixo é o resultado de uma execução do programa, ou seja,
+não é necessário usar loops (for, while, ...) no programa principal (main)
+
++------------+-------------+-----------------------------------------+
+|Execução    | Entrada     |   Saida                                 |
++------------+-------------+-----------------------------------------+
+| 1          |  12         |  Total = 0                              |
+|            |  12         |                                         |
++------------+-------------+-----------------------------------------+
+| 2          |  3          |  Total = 24                             |
+|            |  10         |                                         |
++------------+-------------+-----------------------------------------+
+| 3          |  12         |  Total = 13                             |
+|            |  15         |                                         |
++------------+-------------+-----------------------------------------+
+
+Dicas:
+
+Criar um classe denominada SomaImparesNoIntervalo para armazenar os atributos do valor inicial, valor final.
+Para cada atributo criar métodos get/set. Criar um método getTotal para retornar o total da soma.
+
+No getTotal verifique a possibilidade de usar for ou while para facilitar a vida...

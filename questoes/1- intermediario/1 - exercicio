@@ -1,0 +1,32 @@
+Contando caracteres de palavras.
+
+Entrada
+
+O valor de entrada deve ser uma frase que será armazenada em uma String.
+
+
+Saída
+
+O programa deve mostrar quantos caracteres compõe cada palavra dentro de uma frase.
+
+Exemplos:
+
+                                                                    
++------------+------------------------------------------------------+-----------------------------------------+
+|Execução    | Entrada                                              |   Saida                                 |
++------------+------------------------------------------------------+-----------------------------------------+
+| 1          |  a vela apagou                                       |  1 4 6                                  |
+|            |                                                      |                                         |
++------------+------------------------------------------------------+-----------------------------------------+
+| 2          |  a rapida raposa marrom pulou sobre o cachorro.      |  1 6  6 6 5 5 1 8                       |
+|            |                                                      |                                         |
++------------+------------------------------------------------------+-----------------------------------------+
+
+
+
+Dicas:
+
+Use o espaço em branco como separador.
+
+Não contem caracteres de pontuaçào.
+
