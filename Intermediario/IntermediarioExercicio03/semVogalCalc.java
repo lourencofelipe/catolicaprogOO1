@@ -10,7 +10,7 @@ public class semVogalCalc {
 		for (cont = 0; cont < lista.length; cont++) {
 			palavra = palavra.replace(lista[cont], "*");
 		}
-		// System.out.println("Palavra com substituição: " + palavra);
+		
 		return palavra;
 	}
 
